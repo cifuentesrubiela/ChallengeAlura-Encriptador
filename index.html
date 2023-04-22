@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="content">
+        <div id="header">
+          <img src="./Vector.svg" />
+        </div>
+        <div id="elements">
+          <textarea
+            id="text"
+            placeholder="Ingrese el texto aqui"
+            rows="12"
+          ></textarea>
+          <div id="informacion">
+            <img src="./iconoinformacion.svg" id="iconoinformacion" />
+            <p>Solo letras minúsculas y sin acentos</p>
+          </div>
+          <button id="encriptar">
+            Encriptar
+          </button>
+          <button id="desencriptar">
+            Desencriptar
+          </button>
+        </div>
+      </div>
+
+      <div id="aside">
+        <img src="./Muñeco.svg" id="muneco" />
+        <h2 id="empty-title">Ningún mensaje fue encontrado</h2>
+        <p id="empty-text">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
