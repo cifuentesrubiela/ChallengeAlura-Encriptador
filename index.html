@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
   <body>
@@ -23,22 +23,20 @@
             <img src="./iconoinformacion.svg" id="iconoinformacion" />
             <p>Solo letras minúsculas y sin acentos</p>
           </div>
-          <button id="encriptar">
-            Encriptar
-          </button>
-          <button id="desencriptar">
-            Desencriptar
-          </button>
+          <button id="encriptar" onclick="encriptar()">Encriptar</button>
+          <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
         </div>
       </div>
 
       <div id="aside">
         <img src="./Muñeco.svg" id="muneco" />
-        <h2 id="empty-title">Ningún mensaje fue encontrado</h2>
-        <p id="empty-text">
-          Ingresa el texto que desees encriptar o desencriptar.
-        </p>
+        <h2 id="ningun-mensaje">Ningún mensaje fue encontrado</h2>
+        <p id="texto-vacio">Ingresa el texto que desees encriptar o desencriptar.</p>
+        <button id="copiar-codigo" style="display: none" onclick="copyCode()">Copiar</button>
+      </div>
       </div>
     </div>
+    <script src="script.js">
+</script>
   </body>
 </html>
